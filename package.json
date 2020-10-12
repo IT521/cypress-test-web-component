@@ -1,6 +1,7 @@
 {
   "name": "cypress-test-web-component",
   "version": "0.0.0",
+  "description": "Cypress Test Web Component",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
