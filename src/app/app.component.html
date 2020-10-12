@@ -1,0 +1,15 @@
+<div data-test="cypress-tests">
+  <ng-container *ngIf="props">
+    <h2
+      *ngIf="props.title"
+      style="text-align: center;text-transform: capitalize;margin-bottom: 32px;"
+    >
+      {{ props.title }} is running!
+    </h2>
+    <div
+      *ngIf="props.template"
+      class="center"
+      [innerHTML]="sanitizeHtml(props.template)"
+    ></div>
+  </ng-container>
+</div>

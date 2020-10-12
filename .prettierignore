@@ -1,0 +1,17 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+# *.html
+
+# compiled output
+dist/
+www/
+loader/
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules

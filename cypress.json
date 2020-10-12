@@ -1,0 +1,7 @@
+{
+    "experimentalComponentTesting": true,
+    "includeShadowDom": true,
+    "componentFolder": "src",
+    "testFiles": "**/*.spec.*",
+    "ignoreTestFiles": "**/node_modules/**"
+}
