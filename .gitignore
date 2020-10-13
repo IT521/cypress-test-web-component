@@ -55,6 +55,7 @@ Thumbs.db
 
 # nyc
 .nyc_output
+instrumented/
 coverage
 node_modules
 test/build/

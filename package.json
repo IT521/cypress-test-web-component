@@ -6,12 +6,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "npm run cy:instrument && npm run cy:open && npm run cover:report",
+    "test": "npm run cy:instrument && npm run cy:open",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "cy:open": "nyc cypress open",
-    "cy:instrument": "nyc instrument --delete --exclude-node-modules --compact=false src instrumented",
-    "cover:report": "nyc report"
+    "cy:instrument": "nyc instrument --delete --compact=false src instrumented"
   },
   "private": true,
   "dependencies": {
